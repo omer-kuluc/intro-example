@@ -19,6 +19,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: #000;
 }
 
 img,
@@ -65,9 +66,9 @@ h6 {
   isolation: isolate;
 }
 
-/* .effect {
+.effect {
   visibility: hidden;
-} */
+}
 
 .fullscreen {
   display: flex;
