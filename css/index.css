@@ -67,6 +67,8 @@ h6 {
 
 .effect {
   visibility: hidden;
+  opacity: 0;
+  /* Tamamen saydam olsun */
 }
 
 .fullscreen {
@@ -96,11 +98,11 @@ h6 {
 }
 
 h1 {
+  font-family: 'Roboto';
   will-change: transform;
   font-size: 300vw;
   text-transform: uppercase;
   color: #fff;
-  font-family: 'Roboto';
 }
 
 .blendImage {
