@@ -1,7 +1,8 @@
+gsap.to(".effect", { display: "none" });
+gsap.to(".effect", { display: "block", duration: 1.5, ease: "back" });
+
 gsap.to(".intro-text", { text: "SKY&SEA STUDIO", ease: "power2.inOut", opacity: 1, duration: 2.5, repeat: 1, yoyo: true });
 
-
-gsap.set(".effect", { autoAlpha: 1 })
 let tl = gsap.timeline()
   .from("h1", { scale: 0.01, duration: 4, ease: "power4.inOut" }, "+=2.75")
   .to(".blendImage, .bg", { scale: 1, duration: 3.5 }, "-=3.75")
