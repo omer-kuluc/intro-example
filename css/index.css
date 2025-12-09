@@ -65,11 +65,9 @@ h6 {
   isolation: isolate;
 }
 
-.effect {
+/* .effect {
   visibility: hidden;
-  opacity: 0;
-  /* Tamamen saydam olsun */
-}
+} */
 
 .fullscreen {
   display: flex;
